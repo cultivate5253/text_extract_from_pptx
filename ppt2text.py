@@ -1,9 +1,6 @@
 
 import pptx
-from glob import glob
 
-#for fname in glob ('*.pptx'):
-#print ('File name: ', fname, '\n')
    
 def ppt2text(fname):
     prs = pptx.Presentation(fname)
